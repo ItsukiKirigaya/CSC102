@@ -1,0 +1,55 @@
+<!-- 
+  Name: DeKendrick
+  File: strings.html
+  Description: Validates full name and ZIP, checks palindrome, and shows a secret message
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta data -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Secret Palindrome Checker</title>
+
+  <!-- Creative Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Main container -->
+  <div id="app">
+    <h1>Welcome to the Secret Palindrome Portal</h1>
+    <p>Fill in the info below to continue your journey!</p>
+
+    <!-- Form for all inputs -->
+    <form id="userForm">
+      <!-- First name input -->
+      <input type="text" id="firstName" name="firstName" placeholder="First Name" required /><br>
+
+      <!-- Last name input -->
+      <input type="text" id="lastName" name="lastName" placeholder="Last Name" required /><br>
+
+      <!-- ZIP code input -->
+      <input type="text" id="zipCode" name="zipCode" placeholder="ZIP Code" required /><br>
+
+      <!-- Palindrome string input -->
+      <input type="text" id="userInput" name="userInput" placeholder="Enter a word or phrase" required /><br>
+
+      <!-- Submit button -->
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Messages and results display -->
+    <div id="result"></div>
+
+    <!-- Decorative Image -->
+    <img src="https://cdn-icons-png.flaticon.com/512/2165/2165703.png" alt="Portal icon" />
+  </div>
+
+  <!-- JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
