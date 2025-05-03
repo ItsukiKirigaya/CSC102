@@ -1,0 +1,50 @@
+<!-- Created by DeKendrick -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Palindrome Checker</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Title for the page -->
+  <h1>Palindrome Checker</h1>
+
+  <!-- Form for user inputs -->
+  <form id="palindromeForm">
+    <!-- First Name Input -->
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required /><br /><br />
+
+    <!-- Last Name Input -->
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required /><br /><br />
+
+    <!-- Zip Code Input -->
+    <label for="zip">ZIP Code:</label>
+    <input type="text" id="zip" name="zip" required /><br /><br />
+
+    <!-- Word to check for palindrome -->
+    <label for="wordInput">Enter a word or phrase:</label>
+    <input type="text" id="wordInput" name="wordInput" required /><br /><br />
+
+    <!-- Submit button -->
+    <button type="submit">Check</button>
+  </form>
+
+  <!-- Area to display messages to the user -->
+  <div id="resultBox"></div>
+
+  <!-- Sound Effects -->
+  <audio id="successSound" src="success-221935.mp3" preload="auto"></audio>
+  <audio id="errorSound" src="error-126627.mp3" preload="auto"></audio>
+  
+  <!-- Just an idea but i couldnt get it to work -->
+  <audio id="palindromeSound" src="sounds/palindrome.mp3" preload="auto"></audio>
+
+  <!-- Link to JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
