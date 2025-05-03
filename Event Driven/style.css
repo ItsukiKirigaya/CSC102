@@ -1,0 +1,40 @@
+/* Apply fun styles to the whole page */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Title style */
+h1 {
+    color: #ff4500;
+}
+
+/* Buttons styling */
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#startBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#stopBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Style for the meme image */
+#meme {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 150px;
+}
