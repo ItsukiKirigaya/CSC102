@@ -1,0 +1,46 @@
+<!--
+  Name: DeKendrick
+  File: strings.html
+  Description: Palindrome checker with external CSS and JS
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta settings -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palindrome Checker</title>
+
+  <!-- Link to Script file -->
+  <script src="script.js"></script>
+
+  <!-- Link to external CSS -->
+  <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Main content container -->
+  <div id="app">
+    <h1>Palindrome Checker</h1>
+    <p>Enter a word or phrase below to check if it's a palindrome!</p>
+
+    <!-- Input box for user to enter string -->
+    <input type="text" id="userInput" placeholder="Enter a word or phrase">
+    <br>
+    <!-- Button to check palindrome -->
+    <button onclick="checkPalindrome()">Check</button>
+    <!-- Button to reset input and try again -->
+    <button onclick="resetInput()">Try Another</button>
+
+    <!-- Result will show here -->
+    <div id="result"></div>
+
+    <!-- Decorative image -->
+    <img src="https://cdn-icons-png.flaticon.com/512/2165/2165703.png" alt="Mirror icon">
+  </div>
+
+  <!-- Link to external JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

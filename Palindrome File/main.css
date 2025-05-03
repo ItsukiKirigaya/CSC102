@@ -1,0 +1,52 @@
+/* main.css */
+/* Style for the entire body */
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(to right, #222, #444);
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* Style for the main app container */
+  #app {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #0ff;
+    display: inline-block;
+  }
+  
+  /* Style for decorative image */
+  img {
+    width: 100px;
+    margin-top: 20px;
+  }
+  
+  /* Style for input field */
+  input[type="text"] {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 15px;
+  }
+  
+  /* Style for buttons */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #0ff;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  /* Style for the result display */
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
